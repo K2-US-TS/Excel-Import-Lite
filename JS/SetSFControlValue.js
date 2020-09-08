@@ -1,3 +1,5 @@
+<script lang="javascript">
+    
 function SetControlValue(control, value) {
     $(document).ready(function () {
         var windowToUse = window;
@@ -21,3 +23,5 @@ One thing to note is that this change does not explicitly fire the OnChange rule
 windowToUse.raiseEvent(myTextBoxControl.getAttribute("ID"), "Control", "OnChange");
 
 */
+
+</script>
