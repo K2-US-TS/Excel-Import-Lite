@@ -1,5 +1,3 @@
-<script lang="javascript">
-         
 function to_json(workbook) {	
 	
 	var result = {};
@@ -32,5 +30,3 @@ function get64BitContent() {
 
 	process_wb(wb);
 }
-
-</script>
