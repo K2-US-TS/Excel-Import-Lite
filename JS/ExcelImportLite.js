@@ -1,5 +1,3 @@
-<script lang="javascript" src="https://k2nats.blob.core.windows.net/js-files/xlsx.full.min.js"></script>
-
 <script lang="javascript">
          
 function to_json(workbook) {	
