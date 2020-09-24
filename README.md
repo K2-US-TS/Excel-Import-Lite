@@ -7,7 +7,7 @@ Lite version of an Excel import using combination of javascript and SQL Server s
 
 2. Add a rule on the form **When the server loads the Form** and call the Server rule for the view as show below: 
 
-![Server Load Rule](/Images/ServerLoadRule.png)
+![Server Load Rule](Images/Documentation/Excel Import Lite/ServerLoadRule.png)
 
 ## What the View Does
 
