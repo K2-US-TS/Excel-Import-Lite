@@ -21,4 +21,11 @@ All of the "work" is done in the **[Internal] - Upload File** rule. The follow o
 
 4. A short script is executed which calls a function in the JavaScript embedded in the view. The function reads the base64 contents from the textbox control and outputs the results as JSON to another hidden textbox control.
 
-5. The resulting JSON can then be used to insert or update records in a SmartObject.
+5. The JSON is then saved to the **ExcelFileImport** table in the **JSON** field.
+
+5. The resulting JSON can then be used to insert or update records in a SmartObject using a [stored procedure](#sql-server-stored-procedure) as described below.
+
+## SQL Server Stored Procedure
+
+The 
+
