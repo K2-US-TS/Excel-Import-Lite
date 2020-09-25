@@ -44,7 +44,7 @@ All of the "work" is done in the **[Internal] - Upload File** rule. The follow o
 
 The JSON data saved in the **ExcelFileImport** table can be read and passed into a SQL Server Stored Procedure to update or insert records in a table. Below is the stored procedure used in **Excel File Import Demo Items** SmartObject's **Insert from JSON** method in the **Excel Import Test** form.
 
-`
+```
 /****** Object:  StoredProcedure [dbo].[usp_Import_ExcelImportLite_DemoItems]    Script Date: 9/25/2020 6:48:42 AM ******/
 SET ANSI_NULLS ON
 GO
@@ -154,7 +154,7 @@ SELECT
       ,[ItemImageURL]
       ,[CreatedDate]
 FROM [dbo].[ExcelImportLite_DemoItems]
-`
+```
 
 
 
