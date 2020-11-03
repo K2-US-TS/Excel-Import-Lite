@@ -17,6 +17,8 @@ All of the "work" is done in the **[Internal] - Upload File** rule. The follow o
 
 1. After an Excel file is selected via the File Attachment control the base64 contents of the file along with the file name are loaded into a table in the POC database called **ExcelImportFile**.
 
+**NOTE: This repository includes a sample Excel file (DemoItems.xlsx) to be used with the demo.**
+
 2. A stored procedure strips off the tags surrounding the actual base64 file content updates the **Content** field in the **ExcelFileImport** table.
 
 3. The base64 content is loaded into a hidden textbox control on the view.
